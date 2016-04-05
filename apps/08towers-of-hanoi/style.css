@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 [data-stack] {
     display: flex;
     justify-content: left;
@@ -16,25 +20,38 @@
 
 [data-block="25"] {
     height: 25px;
-    background-color: blue;
+    background-color: #3498db;
 }
 
 [data-block="50"] {
     height: 50px;
-    background-color: green;
+    background-color: #2ecc71;
 }
 
 [data-block="75"] {
     height: 75px;
-    background-color: red;
+    background-color: #e74c3c;
 }
 
 [data-block="100"] {
     height: 100px;
-    background-color: yellow;
+    background-color: #f1c40f;
 }
 
 #announce-game-won {
     font-size: 50px;
     text-align: center;
 }
+
+#not-allowed {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+#allowed {
+    font-size: 50px;
+    text-align: center;
+    color: green;
+}
+
