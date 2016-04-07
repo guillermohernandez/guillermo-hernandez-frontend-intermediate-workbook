@@ -1,3 +1,8 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+
 *:focus {
   outline-style: none !important;
   outline: 0 !important;
@@ -6,7 +11,7 @@
 #content {
     margin: 0 auto;
     width: 100%;
-    max-width: 275px;
+    max-width: 500px;
 }
 
 .header {
@@ -34,6 +39,10 @@ form {
     text-align: center;
     background-color: #fdfdfd;
     width: 100%;
+    cursor: move;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
 }
 
 #todo-list li span {
@@ -58,4 +67,10 @@ input[type=text] {
     -webkit-border-radius: 0px;
     border-radius: 0px;
     width: 65%;
+}
+
+.jumbotron {
+  text-align: center;
+  border-radius: 5px;
+  border-bottom: 1px solid #e5e5e5;
 }
